@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-bgImage bg-scroll">
+
+    <div class="col-3 flex justify-center mt-5">
+        <span></span>
+        <span class="bg-textBg font-mainFont text-5xl font-extrabold p-5 rounded-lg">Enhanced Random Name Generator</span>
+        <span></span>
+    </div>
+
+    <div class="flex justify-center m-2 p-1">
+        <input id="nameInput" class="font-mainFont text-xl p-2 rounded-lg mr-2" type="text" placeholder="enter name">
+        <button id="nameBtn" class="text-black text-xl font-extrabold font-mainFont bg-getName p-2 w-52 rounded-lg"> add name </button>
+        
+    </div>
+
+    <div class="flex justify-center m-2 p-1">
+        <input id="groupInput" class="font-mainFont text-xl p-2 rounded-lg mr-2" type="number" placeholder="enter group size">
+        <button id="groupBtn" class="text-black text-xl font-extrabold font-mainFont bg-randomBtn p-2 w-52 rounded-lg"> get random groups </button>
+    </div>
+
+    <div class="flex justify-center">
+        <span id="totalNames" class="font-mainFont text-2xl bg-textBg p-2 pl-36 pr-36 rounded-lg">total names: </span>
+    </div>
+
+    <div id="getStudentDiv" class="mb-10 ml-60 mr-60">
+            <!-- <p id="studentName" class="font-mainFont text-2xl pr-20">student name</p>
+            <button id="removeBtn" type="button"
+                class="text-black font-mainFont font-bold bg-red-500 hover:bg-red-800 hover:text-white text-sm px-5 py-2.5 rounded-lg">remove</button> -->
+
+    </div>
+
+
+
+
+
+    <script type="module" src="./scripts/app.js"></script>
+</body>
+
+</html>
